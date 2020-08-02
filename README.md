@@ -8,7 +8,7 @@ extractor is a tool to extract table from pdf and create excel out of it.
 ## Installation
 
 ```
-$ git clone <link to repo>
+$ git clone https://github.com/Ankit-rana/table_extractor.git
 $ cd table_extractor
 $ pip install develop
 ```
