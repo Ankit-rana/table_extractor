@@ -10,25 +10,26 @@ extractor is a tool to extract table from pdf and create excel out of it.
 please install 2 dependencies. 
 - Tkinter
 - ghostscript
+
 For ubuntu
+
 ```
 apt install python3-tk ghostscript
 
 ```
+
 Or For Centos
+
 ```
 yum install tkinter ghostscript
-```
-Then 
-```
-$ virtualenv ENV
-$ source ENV/bin/activate
-$ pip3 install -r requirements.txt
 ```
 
 ## Installation
 
 ```
+$ virtualenv ENV
+$ source ENV/bin/activate
+$ pip3 install -r requirements.txt
 $ git clone https://github.com/Ankit-rana/table_extractor.git
 $ cd table_extractor
 $ sudo python3 setup.py install
