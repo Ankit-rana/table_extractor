@@ -11,7 +11,7 @@ setup(
     author_email = "connect.ankit.rana@gmail.com",
     description = ("An demonstration of how to extract table from pdf "
                                    "and create excel out of it."),
-    packages=['table_extractor', 'tests'],
+    packages=['table_extractor'],
     long_description=read('README.md'),
 	data_files=[('/etc', ['extractor.conf'])],
     entry_points={
