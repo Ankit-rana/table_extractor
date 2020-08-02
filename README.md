@@ -19,6 +19,7 @@ Or For Centos
 ```
 yum install tkinter ghostscript
 ```
+Then 
 ```
 $ virtualenv ENV
 $ source ENV/bin/activate
