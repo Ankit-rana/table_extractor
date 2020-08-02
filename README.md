@@ -29,10 +29,10 @@ yum install tkinter ghostscript
 ```
 $ virtualenv ENV
 $ source ENV/bin/activate
-$ pip3 install -r requirements.txt
 $ git clone https://github.com/Ankit-rana/table_extractor.git
 $ cd table_extractor
-$ sudo python3 setup.py install
+$ pip3 install -r requirements.txt
+$ python3 setup.py install
 ```
 
 ## Steps
